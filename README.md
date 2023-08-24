@@ -23,7 +23,7 @@ Program to implement univariate Linear Regression to fit a straight line using l
 Developed by: MOHAMED ATHIL B
 RegisterNumber: 212222230081
 */
-```
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -51,9 +51,11 @@ print(Y_pred)
 plt.scatter(X,Y)
 plt.plot(X,Y_pred,color='red') 
 plt.show() 
+```
 
 ## Output:
-![best fit line](sam.png)
+
+![image](https://github.com/Bmohamedathil/Find-the-best-fit-line-using-Least-Squares-Method/assets/119560261/2b843bba-713e-4e6e-8664-49b18fd1437c)
 
 
 ## Result:
