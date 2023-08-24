@@ -27,18 +27,20 @@ RegisterNumber: 212222230081
 import numpy as np
 import matplotlib.pyplot as plt
 
-### Preprocessing Data
+Preprocessing Data :
 
 X=np.array(eval(input()))
 Y=np.array(eval(input()))
 
-### Mean
+Mean :
+
 X_mean = np.mean(X)
 Y_mean = np.mean(Y)
 num = 0 #for slope
 denom = 0 #for slope
 
-### To Find Sum Of (xi-x')&(yi-y')&(xi-x')^2
+To Find Sum Of (xi-x')&(yi-y')&(xi-x')^2 :
+
 for i in range(len(X)):
     num+=(X[i]-X_mean)*(Y[i]-Y_mean)
     denom+=(X[i]-X_mean)**2
